@@ -1,6 +1,4 @@
 package org.example;
-
-
 public class QuadraticEquation {
     private final double a;
     private final double b;
@@ -13,7 +11,7 @@ public class QuadraticEquation {
     }
 
     public Double[] solution() {
-        double D = b*b - 4*a*c;
+        double D = ((b*b) - (4*a*c));
         if (D > 0) {
             return new Double[] {(-b + Math.sqrt(D))/(2*a), (-b - Math.sqrt(D))/(2*a)};
         }

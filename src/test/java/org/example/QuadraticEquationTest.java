@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class QuadraticEquationTest {
     QuadraticEquation quadraticEquation1 = new QuadraticEquation(1, -2, 1);
     QuadraticEquation quadraticEquation2 = new QuadraticEquation(1, 2, 0);
-    QuadraticEquation quadraticEquation3 = new QuadraticEquation(1, 2, 40);
+    QuadraticEquation quadraticEquation3 = new QuadraticEquation(1, 2, 20);
 
 
     @Test
@@ -24,6 +24,5 @@ public class QuadraticEquationTest {
     @Test
     public void Test3() {
         Assert.assertEquals(0, quadraticEquation3.solution().length);
-    }
-
+    }//
 }
